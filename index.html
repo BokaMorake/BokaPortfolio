@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Bokamoso's developer portfolio showcasing web development projects and technical skills.">
+
+    <title>BokaMorake's Portfolio | Software Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="logo">Boka<span>Portfolio</span></a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact" class="nav-contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home Section -->
+        <section class="hero section" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>
+                    Hi, I'm <span>Bokamoso</span>.<br>
+                    I build things for the web.
+                </h1>
+
+                <p class="hero-description">
+                    I'm a software development student passionate about
+                    creating beautiful, functional and user-friendly
+                    digital experiences.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="button primary-button">
+                        Explore My Work ↗
+                    </a>
+
+                    <a href="#contact" class="button secondary-button">
+                        Get In Touch
+                    </a>
+
+                    <a href="#cv" class="button secondary-button">
+                        View My CV ↓
+                    </a>
+                </div>
+
+                <p class="hero-note">
+                    Learning, building and growing one project at a time ♡
+                </p>
+            </div>
+
+            <div class="hero-art">
+                <div class="decorative-circle"></div>
+
+                <div class="profile-card">
+                    <img src="ID%20Photo.jpeg"
+                         alt="Bokamoso Morake"
+                         class="profile-icon">
+                    <p class="profile-label">SOFTWARE DEVELOPMENT</p>
+                    <h2>Creative mind.<br>Developer in progress.</h2>
+                    <div class="profile-line"></div>
+                    <p class="profile-caption">HTML · CSS · JavaScript</p>
+                    <span class="sparkle sparkle-one">✳</span>
+                    <span class="sparkle sparkle-two">✦</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about-section" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">A LITTLE ABOUT ME</p>
+                <h2>Getting to know <span>me.</span></h2>
+            </div>
+
+            <div class="about-content">
+                <img src="ID%20Photo.jpeg"
+                     alt="Bokamoso Morake"
+                     class="about-letter">
+
+                <div class="about-text">
+                    <h3>I'm building my future, one line of code at a time.</h3>
+
+                    <p>
+                        My name is Bokamoso Morake, and I'm a software
+                        development student developing my skills in
+                        programming and web development.
+                    </p>
+
+                    <p>
+                        I enjoy turning ideas into working websites,
+                        learning new technologies and solving problems
+                        through code. Every project helps me grow as a
+                        developer and improve my creativity.
+                    </p>
+
+                    <p>
+                        I'm excited to keep learning, take on new
+                        challenges and build digital experiences that
+                        make a difference.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills-section" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I WORK WITH</p>
+                <h2>My technical <span>toolkit.</span></h2>
+                <p>Technologies I'm learning and using in my projects.</p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <span class="skill-icon">〈/〉</span>
+                    <h3>HTML</h3>
+                    <p>Building website structure</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">✿</span>
+                    <h3>CSS</h3>
+                    <p>Styling responsive interfaces</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">JS</span>
+                    <h3>JavaScript</h3>
+                    <p>Adding interactive features</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">Py</span>
+                    <h3>Python</h3>
+                    <p>Learning programming logic</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">C#</span>
+                    <h3>C#</h3>
+                    <p>Exploring application development</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">⌘</span>
+                    <h3>Git & GitHub</h3>
+                    <p>Managing and sharing projects</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects-section" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">MY PROJECTS</p>
+                <h2>Things I've <span>created.</span></h2>
+                <p>Explore my projects and open their repositories on GitHub.</p>
+                <a href="https://github.com/BokaMorake?tab=repositories"
+                   class="project-link"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Browse all repositories <span>↗</span>
+                </a>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-visual taskly-visual">
+                        <span class="visual-label">01 / PRODUCTIVITY</span>
+
+                        <div class="mini-window">
+                            <p class="mini-logo">Taskly.</p>
+                            <p class="mini-title">My tasks ♡</p>
+                            <div class="mini-task">✓ Study Python</div>
+                            <div class="mini-task">○ Finish assignment</div>
+                            <div class="mini-task">○ Revise JavaScript</div>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <p class="project-type">PRODUCTIVITY WEB APP</p>
+                        <h3>Taskly — Student Task Tracker</h3>
+
+                        <p>
+                            A task management website that helps students
+                            organise assignments, track progress and
+                            manage deadlines.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="https://github.com/BokaMorake/Taskly"
+                           class="project-link"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View on GitHub <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-visual boutique-visual">
+                        <span class="visual-label">02 / E-COMMERCE</span>
+
+                        <div class="boutique-art">
+                            <span class="boutique-small">THE STYLE EDIT</span>
+                            <span class="boutique-name">Boka's<br>Collection</span>
+                            <span class="boutique-caption">STYLE YOUR WAY</span>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <p class="project-type">ONLINE BOUTIQUE</p>
+                        <h3>Boka's Collection</h3>
+
+                        <p>
+                            A fashion boutique website showcasing bags
+                            with product listings and interactive
+                            shopping features.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="https://github.com/BokaMorake/Bokas_Collection_Frontend"
+                           class="project-link"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View on GitHub <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-visual booking-visual">
+                        <span class="visual-label">03 / MANAGEMENT</span>
+
+                        <div class="booking-art">
+                            <span class="booking-icon">▦</span>
+                            <span class="booking-title">Book your time.</span>
+                            <span class="booking-caption">
+                                SIMPLE. ORGANISED. EFFICIENT.
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <p class="project-type">BOOKING MANAGEMENT</p>
+                        <h3>Beauty Booking System</h3>
+
+                        <p>
+                            A JavaScript project for managing beauty
+                            service bookings.
+                        </p>
+
+                        <div class="tag-list">
+                            <span>JavaScript</span>
+                            <span>Private repository</span>
+                        </div>
+
+                        <a href="https://github.com/BokaMorake/Beauty-Booking-System"
+                           class="project-link"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View on GitHub <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card">
+                    <div class="project-visual funeral-visual">
+                        <span class="visual-label">MANAGEMENT SYSTEM</span>
+                        <div class="repo-art">
+                            <span class="repo-monogram">AF</span>
+                            <span class="repo-art-caption">FUNERAL PARLOUR</span>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <p class="project-type">BUSINESS MANAGEMENT · IN PROGRESS</p>
+                        <h3>Advanced Funeral Parlour System</h3>
+                        <p>
+                            I'm currently working on this funeral parlour
+                            management system, built with HTML, CSS,
+                            JavaScript and JSON.
+                        </p>
+                        <div class="tag-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>JSON</span>
+                            <span>Private repository</span>
+                        </div>
+                        <a href="https://github.com/BokaMorake/Advanced-Funeral-Parlour-System"
+                           class="project-link"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View on GitHub <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="project-card">
+                    <div class="project-visual python-visual">
+                        <span class="visual-label">PYTHON PROJECT</span>
+                        <div class="repo-art">
+                            <span class="repo-monogram">Py</span>
+                            <span class="repo-art-caption">PYTHON PROJECT FOLDER</span>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <p class="project-type">PROGRAMMING</p>
+                        <h3>Python Project Folder</h3>
+                        <p>A Python project repository on GitHub.</p>
+                        <div class="tag-list">
+                            <span>Python</span>
+                        </div>
+                        <a href="https://github.com/BokaMorake/Python-Project-Folder"
+                           class="project-link"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View on GitHub <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 6 -->
+                <article class="project-card">
+                    <div class="project-visual python-course-visual">
+                        <span class="visual-label">PYTHON PROJECTS</span>
+                        <div class="repo-art">
+                            <span class="repo-monogram">Py</span>
+                            <span class="repo-art-caption">ITCA PYTHON PROJECTS</span>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <p class="project-type">PROGRAMMING</p>
+                        <h3>ITCA Python Projects</h3>
+                        <p>A Python project repository for ITCA work.</p>
+                        <div class="tag-list">
+                            <span>Python</span>
+                            <span>Private repository</span>
+                        </div>
+                        <a href="https://github.com/BokaMorake/ITCA-Python-Projects"
+                           class="project-link"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View on GitHub <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 7 -->
+                <article class="project-card">
+                    <div class="project-visual backend-visual">
+                        <span class="visual-label">E-COMMERCE</span>
+                        <div class="repo-art">
+                            <span class="repo-monogram">B.</span>
+                            <span class="repo-art-caption">BOKA'S COLLECTION BACKEND</span>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <p class="project-type">ONLINE BOUTIQUE</p>
+                        <h3>Boka's Collection — Backend</h3>
+                        <p>Backend repository for the Boka's Collection project.</p>
+                        <div class="tag-list">
+                            <span>JavaScript</span>
+                            <span>Private repository</span>
+                        </div>
+                        <a href="https://github.com/BokaMorake/Bokas_Collection_Backend"
+                           class="project-link"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View on GitHub <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 8 -->
+                <article class="project-card">
+                    <div class="project-visual devops-visual">
+                        <span class="visual-label">DEVOPS</span>
+                        <div class="repo-art">
+                            <span class="repo-monogram">AZ</span>
+                            <span class="repo-art-caption">AZ-400 PROJECT</span>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <p class="project-type">AZURE DEVOPS</p>
+                        <h3>AZ-400 DevOps Project</h3>
+                        <p>A project repository for AZ-400 and DevOps work.</p>
+                        <div class="tag-list">
+                            <span>HTML</span>
+                        </div>
+                        <a href="https://github.com/BokaMorake/az400-devops-project"
+                           class="project-link"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View on GitHub <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 9 -->
+                <article class="project-card">
+                    <div class="project-visual dating-visual">
+                        <span class="visual-label">WEB DEVELOPMENT</span>
+                        <div class="repo-art">
+                            <span class="repo-monogram">♡</span>
+                            <span class="repo-art-caption">DATING WEBSITE FRONTEND</span>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <p class="project-type">WEBSITE FRONTEND</p>
+                        <h3>Dating Website</h3>
+                        <p>Frontend of a dating website.</p>
+                        <div class="tag-list">
+                            <span>HTML</span>
+                        </div>
+                        <a href="https://github.com/BokaMorake/Project-Website"
+                           class="project-link"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View on GitHub <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 10 -->
+                <article class="project-card">
+                    <div class="project-visual library-visual">
+                        <span class="visual-label">APPLICATION</span>
+                        <div class="repo-art">
+                            <span class="repo-monogram">LC</span>
+                            <span class="repo-art-caption">LIBRARY CATALOG</span>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <p class="project-type">CATALOG APPLICATION</p>
+                        <h3>Library Catalog</h3>
+                        <p>A JavaScript project repository for a library catalog.</p>
+                        <div class="tag-list">
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://github.com/BokaMorake/LibraryCatalog"
+                           class="project-link"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View on GitHub <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 11 -->
+                <article class="project-card">
+                    <div class="project-visual books-visual">
+                        <span class="visual-label">APPLICATION</span>
+                        <div class="repo-art">
+                            <span class="repo-monogram">C#</span>
+                            <span class="repo-art-caption">BOOKS PRO</span>
+                        </div>
+                    </div>
+
+                    <div class="project-info">
+                        <p class="project-type">C# PROJECT</p>
+                        <h3>BooksProV1</h3>
+                        <p>A C# project repository. Visit GitHub for project details.</p>
+                        <div class="tag-list">
+                            <span>C#</span>
+                        </div>
+                        <a href="https://github.com/BokaMorake/BooksProV1"
+                           class="project-link"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View on GitHub <span>↗</span>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+
+            <p class="projects-note">
+                Some repositories are private and can only be viewed by people
+                with access. ♡
+            </p>
+        </section>
+
+        <!-- CV Section -->
+        <section class="section cv-section" id="cv">
+            <div class="section-heading">
+                <p class="eyebrow">MY EXPERIENCE & BACKGROUND</p>
+                <h2>Curriculum <span>Vitae.</span></h2>
+                <p>Read my education, skills and certifications below.</p>
+            </div>
+
+            <article class="cv-document">
+                <header class="cv-header">
+                    <h3>Bokamoso Aobakwe Morake</h3>
+                    <p>Potchefstroom, North West, 2531, South Africa</p>
+                    <div class="cv-contact">
+                        <a href="tel:+27723143425">072 314 3425</a>
+                        <a href="mailto:morakeboka@gmail.com">morakeboka@gmail.com</a>
+                        <a href="https://github.com/BokaMorake"
+                           target="_blank"
+                           rel="noopener noreferrer">GitHub: BokaMorake ↗</a>
+                    </div>
+                </header>
+
+                <section class="cv-block">
+                    <h3>Summary</h3>
+                    <p>
+                        An aspiring IT Software Development professional
+                        with a strong foundation in programming, web
+                        development, databases, cloud computing and DevOps.
+                        Currently pursuing an IT Software Development
+                        Certification at ITCA Potchefstroom. My GitHub
+                        profile showcases practical application of learned
+                        skills. Eager to leverage academic knowledge and a
+                        passion for technology to contribute to innovative
+                        software development projects and grow within a
+                        dynamic tech environment.
+                    </p>
+                </section>
+
+                <section class="cv-block">
+                    <h3>Education</h3>
+                    <article class="cv-entry">
+                        <div class="cv-entry-heading">
+                            <h4>IT Software Development Certification</h4>
+                            <span>01/2026 – Present</span>
+                        </div>
+                        <p class="cv-entry-place">ITCA Potchefstroom · Potchefstroom, South Africa</p>
+                        <p>
+                            Programme focusing on programming fundamentals,
+                            web development technologies, database
+                            management, cloud computing principles and
+                            DevOps practices.
+                        </p>
+                    </article>
+                    <article class="cv-entry">
+                        <div class="cv-entry-heading">
+                            <h4>NQF Level 5 System Development</h4>
+                            <span>01/2025 – 12/2025</span>
+                        </div>
+                        <p class="cv-entry-place">ITCA Potchefstroom · Potchefstroom, North West, South Africa</p>
+                    </article>
+                </section>
+
+                <section class="cv-block">
+                    <h3>Skills</h3>
+                    <ul class="cv-list cv-skill-list">
+                        <li>Problem Solving</li>
+                        <li>Teamwork</li>
+                        <li>Adaptability</li>
+                        <li>Willingness to Learn</li>
+                        <li>Communication</li>
+                        <li>Time Management</li>
+                        <li>Attention to Detail</li>
+                    </ul>
+                </section>
+
+                <section class="cv-block">
+                    <h3>Technical Skills</h3>
+                    <ul class="cv-list cv-technical-list">
+                        <li><strong>Programming & Web:</strong> HTML, CSS, JavaScript, Python, C# fundamentals</li>
+                        <li><strong>Databases:</strong> SQL fundamentals, database design, data management</li>
+                        <li><strong>Cloud & DevOps:</strong> Microsoft Azure fundamentals, Git, GitHub, CI/CD concepts, DevOps principles</li>
+                        <li><strong>IT Foundations:</strong> Computer systems, networking basics, troubleshooting, software development lifecycle</li>
+                        <li><strong>Tools:</strong> Visual Studio Code, Microsoft Office, command line basics</li>
+                    </ul>
+                </section>
+
+                <div class="cv-details-grid">
+                    <section class="cv-block">
+                        <h3>Languages</h3>
+                        <ul class="cv-list">
+                            <li><strong>English:</strong> Fluent</li>
+                            <li><strong>Afrikaans:</strong> Basic</li>
+                        </ul>
+                    </section>
+
+                    <section class="cv-block">
+                        <h3>Certificates</h3>
+                        <ul class="cv-list">
+                            <li>Microsoft Certified: Azure Developer Associate (AZ-204)</li>
+                            <li>Microsoft Certified: DevOps Engineer Expert (AZ-400)</li>
+                        </ul>
+                    </section>
+                </div>
+
+                <section class="cv-block">
+                    <h3>References</h3>
+                    <p>
+                        OP Hlanyane · Student Advisor, ITCA Potchefstroom<br>
+                        <a href="mailto:ntswaki@itca.co.za">ntswaki@itca.co.za</a>
+                        · <a href="tel:+27717751505">071 775 1505</a><br>
+                        Jean Louis Broodryk · Trainer, ITCA Potchefstroom<br>
+                        <a href="tel:+27826974261">+27 82 697 4261</a>
+                    </p>
+                </section>
+            </article>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="contact-card">
+                <p class="eyebrow">LET'S CONNECT</p>
+
+                <h2>
+                    Have an opportunity<br>
+                    in mind? <span>You can send me an email.</span>
+                </h2>
+
+                <p>
+                    I'm open to connecting with other developers,
+                    learning from new experiences and exploring
+                    opportunities to grow.
+                </p>
+
+                <a href="mailto:morakeboka@gmail.com"
+                   class="button primary-button">
+                    Send Me an Email ↗
+                </a>
+
+                <p class="contact-note">
+                    This opens your email app with my email address
+                    already filled in.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#home" class="logo">Boka<span>Portfolio</span></a>
+
+        <p>Designed & built by Bokamoso Morake ♡</p>
+
+        <p>
+            © <span id="currentYear"></span> All rights reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
